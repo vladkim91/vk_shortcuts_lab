@@ -1,11 +1,14 @@
 import key1 from './assets/key1.jpeg';
-import key2 from './assets/key2.jpeg';
-import key3 from './assets/key3.jpeg';
+import key2 from './assets/key2.png';
+import key3 from './assets/key3.png';
 import key4 from './assets/key4.jpeg';
-import key5 from './assets/key5.jpeg';
-import key6 from './assets/key6.jpeg';
+import key5 from './assets/key5.png';
+import key6 from './assets/key6.png';
 import key7 from './assets/key7.jpeg';
-import key8 from './assets/key8.jpeg';
+import key9 from './assets/key2.jpeg';
+import key10 from './assets/key8.jpeg';
+import key12 from './assets/key8.jpeg';
+import key14 from './assets/key8.jpeg';
 
 export default [
   {

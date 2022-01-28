@@ -1,13 +1,12 @@
 <template>
   <div id="app">
-    
-    <Nav />
-     <router-view header="Listings In Miami"></router-view>
+    <!-- <Nav />
+    <router-view></router-view> -->
   </div>
 </template>
 
 <script>
-import Nav from './components/Nav.vue'
+import Nav from './components/Nav.vue';
 export default {
   name: 'App',
   components: {

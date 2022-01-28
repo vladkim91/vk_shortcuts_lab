@@ -6,7 +6,7 @@ const routes = [
   { path: '/', component: Home, name: 'Home' },
   {
     path: '/keyboards/:keyboard_id',
-    component: KeyboardDetails,
+    component: KeyboardDetail,
     name: 'KeyboardDetails'
   }
 ];

@@ -2,8 +2,8 @@
   <div>
     <h3>Mechanical Keyboards</h3>
     <div class="kb-container">
-      <Keyboard v-for="keyboard in keyboards" :key="keyboard.id" :keyboard="keyboard" @selectKeyboard="selectKeyboard"/>
     </div>
+      <Keyboard v-for="keyboard in keyboards" :key="keyboard.id" :keyboard="keyboard" @selectKeyboard="selectKeyboard"/>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 
    methods: {
      selectKeyboard(keyboard_id) {
-       this.$router.push(`/keyboards/${keyboard_id}`)
+       this.$router.push(`/keyboard/${keyboard_id}`)
      }
    }
 }
@@ -31,7 +31,7 @@ h3 {
   font-size: 2em;
   text-align: center;
 }
-.kb-container {
+.kb-containe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

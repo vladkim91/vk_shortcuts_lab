@@ -1,29 +1,29 @@
 <template>
   <div class="kb-details">
-    <h1>{{currentKb.label}}</h1>
+       <h1>{{currentKb.label}}</h1>
     <img :src="currentKb.image" alt="">
-    <p>{{currentKb.description}}</p>
+       <p>{{currentKb.description}}</p>
     <h2>${{currentKb.price}}</h2>
 
   </div>
 </template>
 
 <script>
-import keyboardsData from '../keyboards'
+  import keyboardsData from '../keyboards'
 export default {
   
   name: "KeyboardDetails",
-  data : ()  => ({
-    currentKb: null,
-    keyboards: keyboardsData
-  }),
-  mounted() {
+   data : ()  => ({
+     currentKb: null,
+     keyboards: keyboardsData
+  }), 
+   mounted() {
     this.getKbDeatails()
   },
 
-  methods: {
+              methods: {
     getKbDeatails() {
-      const kbId = parseInt(this.$route.params.keyboard_id)
+      const kbId =        parseInt(this.$route.params.keyboard_id)
       const filteredKb = this.keyboards.filter((e) => {
 
         return e.id === kbId 
