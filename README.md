@@ -1,24 +1,64 @@
-# vk_shortcuts_lab
+# Using Shortcuts
 
-## Project setup
-```
-npm install
-```
+* SPOTLIGHT => CMD + space
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![](https://www.dmuth.org/wp-content/uploads/2021/04/keyboard-shortcuts-meme.jpeg)
+## Lesson Objective
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* Navigate computer without using mouse
+* Learn how to get more done using keyboard and shortcuts
+* Get fimilar with rectangle
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Shortcuts cheatsheet
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+CMD + D
+
+CMD + P
+
+CMD + /
+
+CMD + \
+
+Ctrl + `
+
+Option + CMD + left/right
+
+CMD + K
+
+Option + Shift + F
+
+CMD + F
+
+Ctrl + R
+
+CMD + Shift + V
+
+CMD + Shift + A
+
+CMD + Shift + N
+
+CMD + W
+
+CMD + Q
+
+CMD + X
+
+CMD + Z
+
+CMD + C
+
+
+
+
+
+
+________
+# Fix this app + UNLOCK your potential
+
+![](https://investorshub.advfn.com/uimage/uploads/2016/3/20/owlsntumblr_inline_mlqnweMSeD1qz4rgp.gif)
+
+
+## Do you know any useful shortcuts?
+
+
+ 
